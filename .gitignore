@@ -1,0 +1,16 @@
+# Python virtual environment (thousands of files; pyvenv.cfg contains local paths)
+.venv/
+venv/
+
+# Bytecode caches
+__pycache__/
+*.pyc
+
+# PyInstaller output: build/ contains absolute local paths (incl. Windows username);
+# dist/ holds the 16 MB exe - publish it as a GitHub Release asset instead
+build/
+dist/
+
+# Local secrets, in case you ever put TPLINK_PASSWORD in a file
+.env
+*.env
